@@ -1,0 +1,8 @@
+#header-logo {
+	max-width: 100%;
+}
+
+
+.columns, .row, .column, div, .container {
+	border: black 1px solid;
+}

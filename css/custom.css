@@ -2,15 +2,26 @@
 	max-width: 100%;
 }
 
+#header-cta {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
 
 .columns, .row, .column, div, .container {
-	/**border: black 1px solid; **/
+	border: black 1px solid; **/
 }
 
 #ctabar {
 	padding: 8px;
 }
 
+#main-section {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+
+}
 .area {
 	width: 100%;
 	text-align: left;

@@ -1,6 +1,8 @@
 Todo
 
+
+Colors
 Layout
+Responsiveness
 Typography
 Contrast
-Colors

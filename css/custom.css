@@ -1,3 +1,21 @@
+/** Palette
+light grey
+#eee
+yellow
+#d5a021
+main crimson
+#5d2828
+white
+#fff
+dark grey
+#1d2121
+**/
+
+.container {
+	background-color: #fff;
+	padding: 0 20px;
+	box-shadow: 0 0 20px;
+}
 #header-logo {
 	max-width: 100%;
 }
@@ -9,11 +27,12 @@
 }
 
 .columns, .row, .column, div, .container {
-	border: black 1px solid; **/
+	/**border: black 1px solid; **/
 }
 
 #ctabar {
 	padding: 8px;
+	background-color: #d5a021;
 }
 
 #main-section {
@@ -35,4 +54,9 @@
 
 .fineprint {
 	font-size: 10px;
+}
+
+#company-info {
+	text-align: left;
+
 }

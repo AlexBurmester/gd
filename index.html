@@ -42,16 +42,54 @@
   		</section>
 
   		<article class="eight columns" id="header-cta">
-  			<h5>Hvis du er sigtet for en forbrydelse: 
-        ring nu for en gratis vurdering af din sag 
+  			<h4>Ring nu for en gratis vurdering af din sag 
         <br>
-  			88 88 88 88 | 99 99 99 99</h5>
+  			<span class="crimson">88 88 88 88 </span>
+        |
+        <span class="crimson"> 99 99 99 99</span></h4>
   		</article> 
   	</header>
 
   <!-- div containing main section with description and sidebar
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="main-section">
+
+
+      <!-- sidebar with CTA and list of cases -->
+
+      <aside class="four columns" id="sidebar">
+        <form id="ctabar">
+
+          <label for="name">Navn</label>
+          <input class="u-full-width" type="text" placeholder="Dit navn" name="name">
+
+          <label for="email">E-mail</label>
+          <input class="u-full-width" type="email" name="email" placeholder="Din e-email">
+
+          <label for="message">Din besked</label>
+          <textarea class="u-full-width" name="message" placeholder="Beskriv din sag">
+          </textarea>
+
+          <input type="submit" class="ctabutton" value="Send besked">
+
+        </form>
+
+        <section id="expertise">
+          <a class="button area" class="button">Spirituskørsel</a>
+          <a class="button area">Vold</a>
+          <a class="button area">Narkotika</a>
+          <a class="button area">Tyveri og røveri</a>
+          <a class="button area">Erhvervskriminalitet</a>
+          <a class="button area">Seksualforbrydelser</a>
+          <a class="button area">Overtrædelse af betinget dom</a>
+          <a class="button area">Trafikforseelser</a>
+          <a class="button area">Internetforbrydelser</a>
+        </section>
+      </aside>
+
+
+      <!-- main section 
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     	<section class="eight columns">
     		<h1>Forsvarsadvokat i Aalborg</h1>
 
@@ -60,13 +98,12 @@
 	    	Med over 15-års erfaring med alle slags anklager - 
 	    	lige fra spirituskørsel og trafikforseelser til volds- og formueforbrydelser, er jeg den
         bedste måde at sikre din frihed på.
-	    	<a href="#">Kontakt os online</a> eller ring på <strong>88 88 88 88</strong> 
-	    	for at få en gratis vurdering af din sag.</p>
+	    	<a href="#">Kontakt os online</a> eller ring på <strong>88 88 88 88</strong>.</p>
 
-				<h2>Vi går hele vejen for at sikre din frihed</h2>    	
+				<h2>Flere muligheder for at sikre din frihed</h2>    	
 	    	
-	    	<p>De fleste forsvarsadvokater kan fortælle dig, hvor god 
-	    	eller dårlig din sag er, samt hvilken straf du kan risikere at få.
+	    	<p>De fleste forsvarsadvokater kan fortælle dig, om din sag er god eller dårlig,
+        samt hvilken straf du kan risikere at få.
 	    	Herefter vil det være op til dig, om du vil erkende anklagerne eller
 	    	få sagen indbragt for retten.</p>
 
@@ -87,47 +124,18 @@
 	    	en ekspert i strafferet med 15-års erfaring. Kontakt derfor straks Jakob Dalsgaard-Hansen for en 
         uforpligtende vurdering af din sag!</p>
 
-        <a href="#" class="button u-full-width" id="bottomcta">Klik her for en gratis vurdering af din sag</a>
+        <a href="#" class="button u-full-width ctabutton" id="bottomcta">Klik her for en gratis vurdering af din sag</a>
 
 	    </section>
 
-	    <!-- sidebar with CTA and list of cases -->
 
-    	<aside class="four columns">
-    		<form id="ctabar">
-
-    			<label for="name">Navn</label>
-    			<input class="u-full-width" type="text" placeholder="Dit navn" name="name">
-
-    			<label for="email">E-mail</label>
-    			<input class="u-full-width" type="email" name="email" placeholder="Din e-email">
-
-    			<label for="message">Din besked</label>
-    			<textarea class="u-full-width" name="message" placeholder="Beskriv din sag">
-    			</textarea>
-
-          <input type="submit" value="Send besked">
-
-    		</form>
-
-        <section id="expertise">
-          <a class="button area" class="button">Spirituskørsel</a>
-          <a class="button area">Vold</a>
-          <a class="button area">Narkotika</a>
-          <a class="button area">Tyveri og røveri</a>
-          <a class="button area">Erhvervskriminalitet</a>
-          <a class="button area">Seksualforbrydelser</a>
-          <a class="button area">Overtrædelse af betinget dom</a>
-          <a class="button area">Trafikforseelser</a>
-          <a class="button area">Internetforbrydelser</a>
-        </section>
-    	</aside>
     </div>
+  </main>
 
   <!-- Footer containing disclaimer and contact information
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <footer class="row">
-      <section class="six columns">
+    <footer>
+      <section>
         <p class="fineprint">Vi repræsenterer klienter i Aalborg Kommune, Hjørring Kommune, 
         Frederikshavn Kommune, Brønderslev Kommune, Jammerbugt Kommune,
         Thisted Kommune, Morsø Kommune, Vesthimmerland Kommune, 
@@ -136,10 +144,8 @@
         <p class="fineprint">Ghiladi &amp; Dalsgaard Advokatfirma I/S <br>
         CVR-nummer: 36 21 75 37</p>
       </section>
-
-      <section class="six columns" id="company-info">
     </footer>
-  </main>
+  
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

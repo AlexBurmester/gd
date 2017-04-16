@@ -39,7 +39,7 @@
     <header class="row" id="header">
       <section class="four columns fade-in-rht">
         <a href="./index.html">
-          <%= image_tag "lawlogo.png", id: "header-logo" %>
+          <%= image_tag "lawlogo.png", id: "header-logo", :relative => true %>
         </a>
       </section>
 
@@ -77,14 +77,14 @@
         </form>
 
         <section id="expertise">
-          <%= link_to "Spirituskørsel", "spirituskoersel.html", class: "button area" %>
-          <%= link_to "Vold", "vold.html", class: "button area" %>
-          <%= link_to "Narkotika", "narkotika.html", class: "button area" %>
-          <%= link_to "Tyveri og røveri", "tyveri.html", class: "button area" %>
-          <%= link_to "Erhvervskriminalitet", "erhverv.html", class: "button area" %>
-          <%= link_to "Seksualforbrydelser", "seksualforbrydelser.html", class: "button area" %>
-          <%= link_to "Trafikforseelser", "trafikforseelser.html", class: "button area" %>
-          <%= link_to "Internetforbrydelser", "internet.html", class: "button area" %>
+          <%= link_to "Spirituskørsel", "/spirituskoersel.html", class: "button area", :relative => true %>
+          <%= link_to "Vold", "/vold.html", class: "button area", :relative => true %>
+          <%= link_to "Narkotika", "/narkotika.html", class: "button area", :relative => true %>
+          <%= link_to "Tyveri og røveri", "/tyveri.html", class: "button area", :relative => true %>
+          <%= link_to "Erhvervskriminalitet", "/erhverv.html", class: "button area", :relative => true %>
+          <%= link_to "Seksualforbrydelser", "/seksualforbrydelser.html", class: "button area", :relative => true %>
+          <%= link_to "Trafikforseelser", "/trafikforseelser.html", class: "button area", :relative => true %>
+          <%= link_to "Internetforbrydelser", "/internet.html", class: "button area", :relative => true %>
         </section>
       </aside>
 

@@ -5,9 +5,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-	<title>Gratis vurdering | Forsvarsadvokat Aalborg</title>
-	<meta name="description" content="Forsvarsadvokat i Aalborg">
-	<meta name="author" content="Jakob Dalsgaard-Hansen">
+  <title>Gratis vurdering | Forsvarsadvokat Aalborg</title>
+  <meta name="description" content="Forsvarsadvokat i Aalborg">
+  <meta name="author" content="Jakob Dalsgaard-Hansen">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -15,13 +15,13 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="stylesheets/normalize.css">
+  <link rel="stylesheet" href="stylesheets/skeleton.css">
+  <link rel="stylesheet" href="stylesheets/custom.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -36,19 +36,21 @@
 
   <!-- Header containing logo and call to action
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  	<header class="row">
-  		<section class="four columns">
-  			<img src="images/lawlogo.png" alt="logo" id="header-logo">
-  		</section>
+    <header class="row" id="header">
+      <section class="four columns fade-in-rht">
+        <a href="./index.html">
+          <%= image_tag "lawlogo.png", id: "header-logo" %>
+        </a>
+      </section>
 
-  		<article class="eight columns" id="header-cta">
-  			<h4>Ring nu for en gratis vurdering af din sag 
+      <article class="eight columns fade-in-fwd" id="header-cta">
+        <h4>Ring nu for en gratis vurdering af din sag 
         <br>
-  			<span class="crimson">88 88 88 88 </span>
+        <span class="crimson"><a href="tel:52-10-10-33" class="phone">52 10 10 33</a></span>
         |
-        <span class="crimson"> 99 99 99 99</span></h4>
-  		</article> 
-  	</header>
+        <span class="crimson"><a href="tel:40-82-92-90" class="phone">40 82 92 90</a></span></h4>
+      </article> 
+    </header>
 
   <!-- div containing main section with description and sidebar
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -75,58 +77,24 @@
         </form>
 
         <section id="expertise">
-          <a class="button area" class="button">Spirituskørsel</a>
-          <a class="button area">Vold</a>
-          <a class="button area">Narkotika</a>
-          <a class="button area">Tyveri og røveri</a>
-          <a class="button area">Erhvervskriminalitet</a>
-          <a class="button area">Seksualforbrydelser</a>
-          <a class="button area">Overtrædelse af betinget dom</a>
-          <a class="button area">Trafikforseelser</a>
-          <a class="button area">Internetforbrydelser</a>
+          <%= link_to "Spirituskørsel", "spirituskoersel.html", class: "button area" %>
+          <%= link_to "Vold", "vold.html", class: "button area" %>
+          <%= link_to "Narkotika", "narkotika.html", class: "button area" %>
+          <%= link_to "Tyveri og røveri", "tyveri.html", class: "button area" %>
+          <%= link_to "Erhvervskriminalitet", "erhverv.html", class: "button area" %>
+          <%= link_to "Seksualforbrydelser", "seksualforbrydelser.html", class: "button area" %>
+          <%= link_to "Trafikforseelser", "trafikforseelser.html", class: "button area" %>
+          <%= link_to "Internetforbrydelser", "internet.html", class: "button area" %>
         </section>
       </aside>
 
-
       <!-- main section 
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    	<section class="eight columns">
-    		<h1>Forsvarsadvokat i Aalborg</h1>
+      <section class="eight columns">
 
-   			<p>Få den bedste juridiske hjælp med Jakob Dalsgaard-Hansen som din advokat. 
-	    	Jeg tilbyder erfaren, forstående og målrettet advokatbistand i Aalborg og det øvrige Nordjylland. 
-	    	Med over 15-års erfaring med alle slags anklager - 
-	    	lige fra spirituskørsel og trafikforseelser til volds- og formueforbrydelser, er jeg den
-        bedste måde at sikre din frihed på.
-	    	<a href="#">Kontakt os online</a> eller ring på <strong>88 88 88 88</strong>.</p>
+      <%= yield %>
 
-				<h2>Flere muligheder for at sikre din frihed</h2>    	
-	    	
-	    	<p>De fleste forsvarsadvokater kan fortælle dig, om din sag er god eller dårlig,
-        samt hvilken straf du kan risikere at få.
-	    	Herefter vil det være op til dig, om du vil erkende anklagerne eller
-	    	få sagen indbragt for retten.</p>
-
-	    	<p>Hos Ghiladi &amp; Dalsgaard Advokatfirma føler vi ikke, at det er godt nok
-	    	kun at give dig valget mellem en retssag eller erkendelse af skyld. 
-	    	Vi gør derfor alt for at give dig flere muligheder.</p>
-
-	    	<p>I mange tilfælde kan en almindelig straf erstattes med mildere alternativer
-	    	som behandling, samfundstjeneste eller en betinget dom. Ved at gøre brug af
-	    	disse muligheder sikrer vi dig det optimale resultat i enhver sag.</p>
-
-	    	<h2>En ekspert koster det samme som en almindelig advokat.</h2>
-
-	    	<p>I de fleste straffesager kan du få beskikket en advokat. Det betyder,
-	    	at retten fastsætter advokatens timepris - og at du kun skal betale, 
-	    	hvis du bliver dømt skyldig. Du kan selv vælge, hvilken advokat du vil have 
-	    	beskikket. Prisen er den samme uanset om du vælger en almindelig advokat, eller
-	    	en ekspert i strafferet med 15-års erfaring. Kontakt derfor straks Jakob Dalsgaard-Hansen for en 
-        uforpligtende vurdering af din sag!</p>
-
-        <a href="#" class="button u-full-width ctabutton" id="bottomcta">Klik her for en gratis vurdering af din sag</a>
-
-	    </section>
+      </section>
 
 
     </div>

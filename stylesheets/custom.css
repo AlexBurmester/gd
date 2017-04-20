@@ -54,6 +54,7 @@ white
 }
 
 
+
 /** other stuff **/
 
 
@@ -80,6 +81,24 @@ white
 	color: #fff;
 }
 
+.navbar {
+	margin: 0 auto 0 auto;
+	border: 0;
+	border-radius: 0;
+	border-bottom: 1px solid #5d2828;
+}
+
+.navbar:hover {
+	color: #fff;
+	background-color: #5d2828;
+  border-color: #888;
+  outline: 0; 
+}
+
+.topbar {
+	border-top: 1px solid #5d2828;
+}
+
 #header-logo {
 	max-width: 100%;
 }
@@ -91,14 +110,6 @@ white
 	background-color: #5d2828;
 	color: #fff;
 	margin-bottom: 0;
-}
-
-
-.columns, .row, .column, div, .container {
-	/**border: black 1px solid; **/
-}
-
-#sidebar {
 }
 
 #ctabar {
@@ -149,3 +160,8 @@ h2 {
 }
 
 
+@media all and (max-width: 640px) {
+  #sidebar {
+  	display: none;
+  }
+}

@@ -77,21 +77,21 @@
         </form>
 
         <section id="expertise">
-          <%= link_to "Spirituskørsel", "/spirituskoersel.html", class: "button area", :relative => true %>
-          <%= link_to "Vold", "/vold.html", class: "button area", :relative => true %>
-          <%= link_to "Narkotika", "/narkotika.html", class: "button area", :relative => true %>
-          <%= link_to "Tyveri og røveri", "/tyveri.html", class: "button area", :relative => true %>
-          <%= link_to "Erhvervskriminalitet", "/erhverv.html", class: "button area", :relative => true %>
-          <%= link_to "Trafikforseelser", "/trafikforseelser.html", class: "button area", :relative => true %>
-          <%= link_to "Internetforbrydelser", "/internet.html", class: "button area", :relative => true %>
+          <%= link_to "Spirituskørsel", "/spirituskoersel.html", class: "button area navbar topbar", :relative => true %>
+          <%= link_to "Vold", "/vold.html", class: "button area navbar", :relative => true %>
+          <%= link_to "Narkotika", "/narkotika.html", class: "button area navbar", :relative => true %>
+          <%= link_to "Tyveri og røveri", "/tyveri.html", class: "button area navbar", :relative => true %>
+          <%= link_to "Erhvervskriminalitet", "/erhverv.html", class: "button area navbar", :relative => true %>
+          <%= link_to "Trafikforseelser", "/trafikforseelser.html", class: "button area navbar", :relative => true %>
+          <%= link_to "Internetforbrydelser", "/internet.html", class: "button area navbar", :relative => true %>
         </section>
       </aside>
 
       <!-- main section 
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-      <section class="eight columns">
+      <section class="eight columns" id="content-bar">
 
-      <%= yield %>
+       <%= yield %>
 
       </section>
 
@@ -116,5 +116,16 @@
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- Jquery CDN and other JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+
+    <script src="javascripts/site.js"></script>
+
+
 </body>
 </html>

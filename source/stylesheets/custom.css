@@ -23,40 +23,39 @@ white
  * animations 
  * ----------------------------------------
  */
-@keyframes fade-in-fwd {
-  0% {
-    transform: translateX(40px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+
+
+@-webkit-keyframes text-focus-in {
+	0% {
+		-webkit-filter: blur(12px);
+		filter: blur(12px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-filter: blur(0);
+		filter: blur(0);
+		opacity: 1;
+	}
 }
 
-@keyframes fade-in-rht {
-  0% {
-    transform: translateX(-40px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+@keyframes text-focus-in{
+	0% {
+		-webkit-filter: blur(12px);
+		filter: blur(12px);
+		opacity: 0;
+		}
+	100% {
+		-webkit-filter: blur(0);
+		filter: blur(0);
+		opacity: 1;
+	}
 }
 
-.fade-in-fwd {
-	-webkit-animation: fade-in-fwd 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	-moz-animation: fade-in-fwd 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	animation: fade-in-fwd 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	-moz-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
-
-.fade-in-rht {
-	-webkit-animation: fade-in-rht 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	-moz-animation: fade-in-rht 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	animation: fade-in-rht 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
 
 
 /** other stuff **/

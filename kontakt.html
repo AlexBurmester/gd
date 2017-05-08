@@ -92,26 +92,40 @@
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <section class="eight columns" id="content-bar">
 
-       <h1>Find mig her</h1>
+       <h1>Kontakt mig</h1>
 
-<p>Kattesundet 24 st. 9000 Aalborg<p>
+<p class="contact-info">
+	E-mail:	<a href="mailto:jdh@gdlaw.dk">jdh@gdlaw.dk</a>
+	<br>
+	Telefon: <a href="tel:52-10-10-33">52 10 10 33</a>
+</p>
+
+<hr>
+
 <div id="map"></div>
-    <script>
-      function initMap() {
-        var gdlaw = {lat: 57.051361, lng: 9.917718};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16,
-          center: gdlaw
-        });
-        var marker = new google.maps.Marker({
-          position: gdlaw,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLORrjJ5KtgBvGK_RRwk14Aiu12fjXYP8 &callback=initMap">
-    </script>
+
+<p class="contact-info">
+	Adresse:
+	<br>Kattesundet 24, st. 
+	<br>9000 Aalborg
+<p>
+
+<script>
+	function initMap() {
+		var gdlaw = {lat: 57.051361, lng: 9.917718};
+		var map = new google.maps.Map(document.getElementById('map'), {
+		  zoom: 16,
+		  center: gdlaw
+		});
+		var marker = new google.maps.Marker({
+		  position: gdlaw,
+		  map: map
+		});
+  }
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLORrjJ5KtgBvGK_RRwk14Aiu12fjXYP8 &callback=initMap">
+</script>
 
 
       </section>

@@ -61,6 +61,10 @@ white
 	background-color: transparent;
 }
 
+.contact-info{
+	font-size: 1.7rem;
+}
+
 .ctabutton {
 	background-color: #A66a6a;
 	color: #fff;
@@ -116,6 +120,7 @@ white
 #map {
   width: 100%;
   height: 400px;
+  margin-bottom: 15px;
 }
 
 .area {

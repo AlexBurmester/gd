@@ -23,36 +23,21 @@ white
  * animations 
  * ----------------------------------------
  */
-@keyframes fade-in-fwd {
-  0% {
-    transform: translateX(40px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+
+@keyframes text-focus-in{
+	0% {
+		filter: blur(12px);
+		opacity: 0;
+		}
+	100% {
+		filter: blur(0);
+		opacity: 1;
+	}
 }
 
-@keyframes fade-in-rht {
-  0% {
-    transform: translateX(-40px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+.text-focus-in {
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
-
-.fade-in-fwd {
-	animation: fade-in-fwd 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-.fade-in-rht {
-	animation: fade-in-rht 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
 
 
 /** other stuff **/

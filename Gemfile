@@ -7,3 +7,4 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 
 # helper gem for hosting on github pages
 gem "middleman-gh-pages"
+

@@ -19,9 +19,6 @@ page '/*.txt', layout: false
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
-activate :blog do |blog|
-end
-
 # proxy(
 #   '/this-page-has-no-template.html',
 #   '/template-file.html',

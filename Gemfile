@@ -8,5 +8,3 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 # helper gem for hosting on github pages
 gem "middleman-gh-pages"
 
-# mm official blog extension
-gem "middleman-blog", "~> 4.0"

@@ -8,7 +8,7 @@ dark crimson
 #300606
 
 main crimson
-#5d2828
+8e0f1a
 
 light crimson 
 A66a6a
@@ -72,7 +72,7 @@ white
 .container {
 	background-color: #fff;
 	padding: 10px 20px 30px 20px;
-	box-shadow: 0 0 1em #5d2828;
+	box-shadow: 0 0 1em #8e0f1a;
 }
 
 .transparent {
@@ -93,18 +93,18 @@ white
 	margin: 0 auto 0 auto;
 	border: 0;
 	border-radius: 0;
-	border-bottom: 1px solid #5d2828;
+	border-bottom: 1px solid #8e0f1a;
 }
 
 .navbar:hover {
 	color: #fff;
-	background-color: #5d2828;
+	background-color: #8e0f1a;
   border-color: #888;
   outline: 0; 
 }
 
 .topbar {
-	border-top: 1px solid #5d2828;
+	border-top: 1px solid #8e0f1a;
 }
 
 #header-logo {
@@ -115,7 +115,7 @@ white
 	text-align: center;
 	padding-top: 5px;
 	padding-bottom: 0;
-	background-color: #5d2828;
+	background-color: #8e0f1a;
 	color: #fff;
 	margin-bottom: 0;
 }
